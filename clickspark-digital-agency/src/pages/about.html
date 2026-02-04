@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | ClickSpark</title>
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body class="bg-white text-gray-800">
+    <!-- NAVBAR -->
+    <header
+      class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur border-b border-gray-200"
+    >
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex items-center justify-between h-16">
+          <!-- LOGO -->
+          <div class="flex items-center gap-2">
+            <div
+              class="w-9 h-9 flex items-center justify-center rounded-lg bg-gradient-to-tr from-blue-600 to-indigo-600 text-white font-bold"
+            >
+              C
+            </div>
+            <h1 class="text-xl font-extrabold tracking-tight">
+              Click<span class="text-orange-500">Spark</span>
+            </h1>
+          </div>
+
+          <!-- DESKTOP NAV -->
+          <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+            <a href="../../index.html" class="relative group"
+              >Home<span class="nav-line"></span
+            ></a>
+            <a href="./about.html" class="relative group"
+              >About<span class="nav-line active"></span
+            ></a>
+            <a href="./services.html" class="relative group"
+              >Services<span class="nav-line"></span
+            ></a>
+            <a href="./blog.html" class="relative group"
+              >Blog<span class="nav-line"></span
+            ></a>
+            <a href="./contact.html" class="relative group"
+              >Contact<span class="nav-line"></span
+            ></a>
+          </nav>
+
+          <!-- CTA -->
+          <div class="hidden md:block">
+            <a
+              href="#"
+              class="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-blue-700 transition"
+            >
+              Get Started
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- HAMBURGER -->
+          <button
+            id="menuBtn"
+            class="md:hidden inline-flex items-center justify-center rounded-lg p-2 hover:bg-gray-100"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- MOBILE MENU -->
+      <div
+        id="mobileMenu"
+        class="md:hidden overflow-hidden max-h-0 opacity-0 transition-all duration-300 ease-in-out bg-white border-t border-gray-200"
+      >
+        <nav class="px-6 py-6 space-y-4 text-sm font-medium">
+          <a href="../../index.html" class="block hover:text-blue-600">Home</a>
+          <a href="./about.html" class="block text-blue-600 active">About</a>
+          <a href="./services.html" class="block hover:text-blue-600"
+            >Services</a
+          >
+          <a href="./blog.html" class="block hover:text-blue-600">Blog</a>
+          <a href="./contact.html" class="block hover:text-blue-600">Contact</a>
+
+          <a
+            href="#"
+            class="block text-center mt-4 rounded-lg bg-blue-600 py-2 text-white font-semibold"
+          >
+            Get Started
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+      <div class="max-w-7xl mx-auto px-6 py-36 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6">
+          About <span class="text-orange-400">ClickSpark</span>
+        </h1>
+        <p class="max-w-3xl mx-auto text-lg md:text-xl text-white/90">
+          We ignite brands with data-driven digital marketing strategies that
+          create visibility, engagement, and measurable growth.
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT CONTENT -->
+    <section class="py-20">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-14 items-center"
+      >
+        <!-- TEXT -->
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6">Who We Are</h2>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            <span class="font-semibold text-gray-800">ClickSpark</span> is a
+            results-focused digital marketing agency helping businesses grow
+            their online presence through smart strategies and creative
+            execution.
+          </p>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            From startups to established brands, we partner with clients to
+            build meaningful digital experiences that convert traffic into loyal
+            customers.
+          </p>
+          <p class="text-gray-600 leading-relaxed">
+            Our team blends creativity, analytics, and technology to deliver
+            marketing solutions that truly spark growth.
+          </p>
+        </div>
+
+        <!-- IMAGE -->
+        <div class="relative">
+          <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+            alt="Team discussion"
+            class="rounded-2xl shadow-2xl"
+          />
+          <div
+            class="absolute -bottom-6 -left-6 bg-orange-500 text-white px-6 py-4 rounded-xl shadow-lg hidden sm:block"
+          >
+            <p class="font-bold text-lg">5+ Years</p>
+            <p class="text-sm">Digital Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSION / VISION -->
+    <section class="bg-gray-50 py-20">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <!-- MISSION -->
+          <div
+            class="bg-white p-10 rounded-2xl shadow hover:shadow-lg transition"
+          >
+            <h3 class="text-2xl font-bold mb-4">🚀 Our Mission</h3>
+            <p class="text-gray-600 leading-relaxed">
+              To empower businesses with innovative digital marketing solutions
+              that increase visibility, drive engagement, and deliver real
+              business growth.
+            </p>
+          </div>
+
+          <!-- VISION -->
+          <div
+            class="bg-white p-10 rounded-2xl shadow hover:shadow-lg transition"
+          >
+            <h3 class="text-2xl font-bold mb-4">🌍 Our Vision</h3>
+            <p class="text-gray-600 leading-relaxed">
+              To become a trusted global digital partner for brands seeking
+              sustainable and scalable online success.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-12">
+          Why Choose <span class="text-orange-500">ClickSpark?</span>
+        </h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <div class="p-8 rounded-xl bg-blue-50 hover:shadow-lg transition">
+            <h4 class="text-xl font-semibold mb-3">📊 Data-Driven</h4>
+            <p class="text-gray-600">
+              Decisions backed by analytics and measurable performance.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-xl bg-blue-50 hover:shadow-lg transition">
+            <h4 class="text-xl font-semibold mb-3">🎯 Targeted Growth</h4>
+            <p class="text-gray-600">
+              Customized strategies aligned with business goals.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-xl bg-blue-50 hover:shadow-lg transition">
+            <h4 class="text-xl font-semibold mb-3">🤝 Trusted Team</h4>
+            <p class="text-gray-600">
+              Experienced marketers using the latest tools & trends.
+            </p>
+          </div>
+
+          <div class="p-8 rounded-xl bg-blue-50 hover:shadow-lg transition">
+            <h4 class="text-xl font-semibold mb-3">⚡ Fast Results</h4>
+            <p class="text-gray-600">
+              Agile execution with quick optimization cycles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-gradient-to-r from-blue-600 to-indigo-600 py-20">
+      <div class="max-w-7xl mx-auto px-6 text-center text-white">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+          Ready to Spark Your Growth?
+        </h2>
+        <p class="mb-8 text-white/90 text-lg">
+          Let’s build a powerful digital presence together.
+        </p>
+        <a
+          href="contact.html"
+          class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-xl hover:bg-gray-100 transition"
+        >
+          Contact Us
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-300">
+      <div
+        class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10"
+      >
+        <!-- BRAND -->
+        <div>
+          <h4 class="text-3xl font-extrabold text-white mb-4">
+            Click<span class="text-orange-500">Spark</span>
+          </h4>
+          <p class="text-gray-400 leading-relaxed">
+            Spark your online presence with powerful digital marketing
+            strategies that drive real growth.
+          </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div>
+          <h5 class="text-lg font-semibold text-white mb-4">Quick Links</h5>
+          <ul class="space-y-3">
+            <li>
+              <a href="#" class="hover:text-orange-500 transition">Home</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-orange-500 transition">Services</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-orange-500 transition">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-orange-500 transition">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- SERVICES -->
+        <div>
+          <h5 class="text-lg font-semibold text-white mb-4">Services</h5>
+          <ul class="space-y-3">
+            <li>SEO Optimization</li>
+            <li>Social Media Marketing</li>
+            <li>Google Ads & PPC</li>
+            <li>Content Strategy</li>
+          </ul>
+        </div>
+
+        <!-- SOCIAL -->
+        <div>
+          <h5 class="text-lg font-semibold text-white mb-4">Follow Us</h5>
+          <div class="flex gap-4">
+            <!-- Facebook -->
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-orange-500 hover:scale-110 transition-all duration-300"
+            >
+              <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24">
+                <path
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987H7.898v-2.891h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                />
+              </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-orange-500 hover:scale-110 transition-all duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                class="w-5 h-5 fill-white"
+              >
+                <!-- Icon from Material Design Icons by Pictogrammers - https://github.com/Templarian/MaterialDesign/blob/master/LICENSE -->
+                <path
+                  fill="currentColor"
+                  d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"
+                />
+              </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-orange-500 hover:scale-110 transition-all duration-300"
+            >
+              <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14
+              c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239
+              5-5v-14c0-2.761-2.238-5-5-5zm-11
+              19h-3v-10h3v10zm-1.5-11.268
+              c-.966 0-1.75-.79-1.75-1.764s.784-1.764
+              1.75-1.764 1.75.79 1.75 1.764-.783
+              1.764-1.75 1.764zm13.5
+              11.268h-3v-5.604c0-1.337-.026-3.06-1.865-3.06
+              -1.865 0-2.151 1.454-2.151 2.957v5.707h-3v-10h2.881v1.367h.041c.401-.76
+              1.381-1.562 2.841-1.562 3.037 0 3.6 2.001
+              3.6 4.604v5.591z"
+                />
+              </svg>
+            </a>
+
+            <!-- Twitter -->
+            <a
+              href="#"
+              class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-orange-500 hover:scale-110 transition-all duration-300"
+            >
+              <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24">
+                <path
+                  d="M24 4.557a9.93 9.93 0 01-2.828.775
+              4.932 4.932 0 002.165-2.724
+              9.864 9.864 0 01-3.127 1.195
+              4.916 4.916 0 00-8.384 4.482
+              A13.944 13.944 0 011.671 3.149
+              a4.916 4.916 0 001.523 6.573
+              4.903 4.903 0 01-2.229-.616
+              c-.054 2.281 1.581 4.415 3.949 4.89
+              a4.935 4.935 0 01-2.224.084
+              4.918 4.918 0 004.588 3.417
+              A9.867 9.867 0 010 19.54
+              a13.94 13.94 0 007.548 2.212
+              c9.057 0 14.01-7.496 14.01-13.986
+              0-.21-.006-.423-.016-.636A10.012
+              10.012 0 0024 4.557z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM BAR -->
+      <div class="border-t border-gray-800">
+        <div
+          class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between text-sm"
+        >
+          <p class="text-gray-400">
+            © 2026 ClickSpark Digital Marketing. All rights reserved.
+          </p>
+          <p class="text-gray-500 mt-3 sm:mt-0">
+            Made with ❤️ for digital growth
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="../main.js"></script>
+  </body>
+</html>
