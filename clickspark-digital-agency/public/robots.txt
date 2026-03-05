@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://clickspark-digital-agency.netlify.app/sitemap.xml
